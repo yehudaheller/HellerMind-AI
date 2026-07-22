@@ -1,0 +1,30 @@
+# Code owners for HellerMind-AI
+# These users/teams will automatically be requested for review when files are modified
+
+# Global ownership - repository maintainers
+* @yehudaheller
+
+# GitHub workflows and CI/CD configuration - require maintainer review
+/.github/ @yehudaheller
+/package.json @yehudaheller
+/pnpm-lock.yaml @yehudaheller
+
+# Security-sensitive configurations - require maintainer review
+/.env* @yehudaheller
+/wrangler.toml @yehudaheller
+/Dockerfile @yehudaheller
+/docker-compose.yaml @yehudaheller
+
+# Core application architecture - require maintainer review
+/app/lib/.server/ @yehudaheller
+/app/routes/api.* @yehudaheller
+
+# Build and deployment configuration - require maintainer review
+/vite*.config.ts @yehudaheller
+/tsconfig.json @yehudaheller
+/uno.config.ts @yehudaheller
+/eslint.config.mjs @yehudaheller
+
+# Documentation (optional review)
+/*.md
+/docs/

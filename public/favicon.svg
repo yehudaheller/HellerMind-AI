@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <defs>
+    <linearGradient id="hm-blue" x1="2" y1="1" x2="14" y2="15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" />
+      <stop offset="0.55" stop-color="#2563EB" />
+      <stop offset="1" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="16" height="16" rx="3.5" fill="url(#hm-blue)" />
+  <path d="M8 3.1 9.08 6.7 12.7 8l-3.62 1.3L8 12.9 6.92 9.3 3.3 8l3.62-1.3L8 3.1Z" fill="#fff" />
+</svg>
